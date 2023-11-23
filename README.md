@@ -9,10 +9,10 @@ If you want to learn more about Vaadin, please visit its website: https://vaadin
 Open two terminals, one basic, the other in private mode.
 
 Connect in the first terminal with :
-- login : username1 / password : password
+- login : batman / password : password
 
 Connect in the second terminal with :
-- login : username2 / password : password
+- login : robin / password : password
 
 ## Creating a native executable
 
