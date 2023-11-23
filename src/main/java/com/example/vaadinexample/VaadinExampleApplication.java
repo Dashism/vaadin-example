@@ -84,9 +84,9 @@ class SecurityConfiguration extends VaadinWebSecurity {
 
 	@Bean
 	UserDetailsManager userDetailsManager () {
-		var users = Set.of("firstLogin", "secondLogin")
+		var users = Set.of("username1", "username2")
 				.stream()
-				.map(name -> User.withDefaultPasswordEncoder().username(name).password("pw").roles("USER").build())
+				.map(name -> User.withDefaultPasswordEncoder().username(name).password("password").roles("USER").build())
 				.toList();
 		return new InMemoryUserDetailsManager(users);
 	}
